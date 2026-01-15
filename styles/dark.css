@@ -1,60 +1,29 @@
-:root.theme-dark {
-    --page-bg-color: var(--approximately-black);
-    --accent-color: var(--real-red);
-    --title-color:  #db00ff;
-    --header-text-bg-color: var(--real-red);
-    --header_text-color: var(--approximately-black);
-    --question-bg-color: var(--approximately-black);
-    --question-color: var(--real-red);
-    --answer-title-bg-color: var(--real-red);
-    --answer-title-color: var(--approximately-black);
-    --answer-text-bg-color: var(--approximately-black);
-    --answer-text-color: #f1b2ce;
-    --advice-title-bg-color: var(--real-red);
-    --advice-title-color: var(--approximately-black);
-    --button-color: var(--real-red);
-    --rec-color: var(--real-red);
-    --border-color-opacity: #FF007066;
-    --background-image:  url("../images/cover-image-dark.png");
-    --deco-color: var(--real-red);
-
+.page.theme_dark {
+  --main-text-color: #f1b2ce;
+  --bg-color: #000028;
+  --main-header-color: #db00ff;
+  --button-color: #ff0070;
+  --button-hover-border: #ff007066;
+  --section-header-color: #ff0070;
+  --article-header-color: #000028;
+  --article-bg-color: #ff0070;
+  --link-shadow-color: #ff0070;
+  --bg-image: url("../images/cover-image-dark.png");
+  --visible: visible;
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    --page-bg-color: var(--approximately-black);
-    --accent-color: var(--real-red);
-    --title-color:  #db00ff;
-    --header-text-bg-color: var(--real-red);
-    --header-text-color: var(--approximately-black);
-    --question-bg-color: var(--approximately-black);
-    --question-color: var(--real-red);
-    --answer-title-bg-color: var(--real-red);
-    --answer-title-color: var(--approximately-black);
-    --answer-text-bg-color: var(--approximately-black);
-    --answer-text-color: #f1b2ce;
-    --advice-title-bg-color: var(--real-red);
-    --advice-title-color: var(--approximately-black);
-    --button-color: var(--real-red);
-    --rec-color: var(--real-red);
-    --border-color-opacity: #FF007066;
-    --background-image:  url("../images/cover-image-dark.png");
-    --deco-color: var(--real-red);
+  .page {
+    --main-text-color: #f1b2ce;
+    --bg-color: #000028;
+    --main-header-color: #db00ff;
+    --button-color: #ff0070;
+    --button-hover-border: #ff007066;
+    --section-header-color: #ff0070;
+    --article-header-color: #000028;
+    --article-bg-color: #ff0070;
+    --link-shadow-color: #ff0070;
+    --bg-image: url("../images/cover-image-dark.png");
+    --visible: visible;
   }
-
-  .rec_empty::before {
-    display: inline-block;
-  }
-  
-  .rec_empty::after {
-    display: inline-block;
-  }
-}
-
-.theme-dark .rec_empty::before {
-  display: inline-block;
-}
-
-.theme-dark .rec_empty::after {
-  display: inline-block;
 }

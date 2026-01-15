@@ -1,60 +1,29 @@
-:root.theme-light {
-  --accent-color: var(--basic-pink);
-  --title-color: var(--title-pink);
-  --page-bg-color: var(--almost-white-bg);
-  --header-text-bg-color: var(--basic-pink);
-  --header-text-color: var(--almost-black);
-  --question-bg-color:  var(--almost-white-bg);
-  --question-color:  var(--almost-black);
-  --answer-title-bg-color: var(--basic-pink);
-  --answer-title-color: var(--almost-black);
-  --answer-text-bg-color: var(--almost-white-bg);
-  --answer-text-color: var(--almost-black);
-  --advice-title-bg-color:  var(--basic-pink) ;
-  --advice-title-color: var(--almost-black);
-  --button-color: var(--almost-black);
-  --border-color-opacity: #32312D66;
-  --background-image:  url("../images/cover-image-light.png");
-  --deco-color: var(--almost-black);
-
-
+.page.theme_light {
+  --main-text-color: #353430;
+  --bg-color: #fff1f7;
+  --main-header-color: #ffc2e6;
+  --button-color: #353430;
+  --button-hover-border: #32312d66;
+  --section-header-color: #353430;
+  --article-header-color: #353430;
+  --article-bg-color: #ff8dcb;
+  --link-shadow-color: #ff8dcb;
+  --bg-image: url("../images/cover-image-light.png");
+  --visible: hidden;
 }
 
 @media (prefers-color-scheme: light) {
-  :root {
-    --accent-color: var(--basic-pink);
-    --title-color: var(--title-pink);
-    --page-bg-color: var(--almost-white-bg);
-    --header-text-bg-color: var(--basic-pink);
-    --header-text-color: var(--almost-black);
-    --question-bg-color:  var(--almost-white-bg);
-    --question-color:  var(--almost-black);
-    --answer-title-bg-color: var(--basic-pink);
-    --answer-title-color: var(--almost-black);
-    --answer-text-bg-color: var(--almost-white-bg);
-    --answer-text-color: var(--almost-black);
-    --advice-title-bg-color:  var(--basic-pink) ;
-    --advice-title-color: var(--almost-black);
-    --button-color: var(--almost-black);
-    --border-color-opacity: #32312D66;
-    --background-image:  url("../images/cover-image-light.png");
-    --deco-color: var(--almost-black);
-
+  .page {
+    --main-text-color: #353430;
+    --bg-color: #fff1f7;
+    --main-header-color: #ffc2e6;
+    --button-color: #353430;
+    --button-hover-border: #32312d66;
+    --section-header-color: #353430;
+    --article-header-color: #353430;
+    --article-bg-color: #ff8dcb;
+    --link-shadow-color: #ff8dcb;
+    --bg-image: url("../images/cover-image-light.png");
+    --visible: hidden;
   }
- 
-  .rec_empty::before {
-    display: none;
-  }
-  
-  .rec_empty::after {
-    display: none;
-  }
-}
-
-.theme-light .rec_empty::before {
-  display: none;
-}
-
-.theme-light .rec_empty::after {
-  display: none;
 }
