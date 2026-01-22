@@ -2,7 +2,7 @@
   position: relative;
 }
 
-.decorated-zone::after{ 
+.decorated-zone::after { 
   content: ""; 
   position: absolute; 
   width: 25px; 
@@ -164,9 +164,10 @@
   gap: 50px;
 } 
  
-.content-section{
+.content-section {
   display: grid;
   /* grid-template-columns: 236px 1fr; */
+  grid-template-columns: 1fr;
   gap: 20px;
   margin-bottom: 40px;
 }
@@ -326,6 +327,11 @@
 
 .content-section {
   grid-template-columns: 236px 2fr;
+}
+
+.content-section:first-child .main__section-block {
+  grid-column-start: 2;
+  grid-column-end: auto;
 }
 
 .decorated-zone::before {
