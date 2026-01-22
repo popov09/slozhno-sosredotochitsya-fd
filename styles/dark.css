@@ -5,10 +5,32 @@
   */
   --bg-image: url('../images/cover-image-dark.png');
 
-
+  --btn-color:var(--accent-color);
+  --btn-border: var(--accent-color);
+  --decor-text-color: #ff0070;
   --accent-color: #ff0070;
   --bg-color: #000028;
   --title-color: #db00ff;
   --subtitle-color: #000028;
   --text-color: #f1B2ce;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+  --bg-image: url('../images/cover-image-light.png');
+  --bg-color: #fff1f7;
+  --btn-color: #353430;
+  --btn-border: #353430;
+  --accent-color: #ff8dcb;
+  --button-color:  rgba(53, 52, 48, 1);
+  --title-color: transparent;
+  --title-color: #ffc2e6;
+  --section-header-text-color: rgba(53, 52, 48, 1);
+  --header-text-color: rgba(53, 52, 48, 1);
+  --text-color: rgba(53, 52, 48, 1);
+  }
+
+  .theme-dark .header__rec {
+  display: block;
+}
 }
