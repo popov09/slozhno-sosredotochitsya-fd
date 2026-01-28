@@ -97,7 +97,6 @@
 
   background-color: transparent;
   font-family: var(--font);
-  font-size: var(--main-font-size);
   font-weight: 400;
   font-size: var(--font-size);
   color: var(--btn-color);
@@ -276,7 +275,7 @@
     grid-template-columns: 236px 2fr;
   }
 
-  .section-why__content{
+  .section-why__content {
     grid-column-start: 2;
     grid-column-end: 3;
   }
@@ -365,7 +364,7 @@
   grid-template-columns: 315px 2fr;
 }
 
-.section-content__container{
+.section-content__container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
