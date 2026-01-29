@@ -1,5 +1,5 @@
 :root.theme-light {
-  --bg-image:: url('../images/cover-image-light.png');
+  --bg-image: url('../images/cover-image-light.png');
   --bg-color: #fff1f7;
   --accent-color: #ff8dcb;
   --btn-color:  rgba(53, 52, 48, 1);
@@ -13,12 +13,12 @@
 
 @media (prefers-color-scheme: light) {
   :root {
-  --page-bg: url('../images/cover-image-light.png');
+  --bg-image: url('../images/cover-image-light.png');
   --bg-color: #fff1f7;
   --accent-color: #ff8dcb;
   --button-color:  rgba(53, 52, 48, 1);
-  --decor-text-color: transparent;
-  --decoration-color: #ffc2e6;
+  --rec-text-color: transparent;
+  --title-color: #ffc2e6;
   --section-header-text-color: rgba(53, 52, 48, 1);
   --header-text-color: rgba(53, 52, 48, 1);
   --text-color: rgba(53, 52, 48, 1);

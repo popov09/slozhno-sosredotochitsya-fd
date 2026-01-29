@@ -39,7 +39,7 @@
   background-size: cover;
   background-attachment: fixed;
   background-color: var(--bg-color);
-  font-family: var(--font-family);
+  font-family: var(--font-family), monospace;
 }
 
 .header {
@@ -96,7 +96,7 @@
   padding: 1.5px 13px;
 
   background-color: transparent;
-  font-family: var(--font);
+  font-family: var(--font-family), monospace;
   font-weight: 400;
   font-size: var(--font-size);
   color: var(--btn-color);
@@ -130,7 +130,7 @@
 
 .title-decor {
   background-color: var(--accent-color);
-  font-family: var(--font-family);
+  font-family: var(--font-family), monospace;
   color: var(--header-text-color);
 }
 
@@ -161,7 +161,7 @@
 }
 
 .main-section__header {
-  font-family: var(--font-family);
+  font-family: var(--font-family), monospace;
   font-size: var(--font-size);
   font-weight: 700;
   line-height: 23.4px;
@@ -180,7 +180,7 @@
 }
 
 .section-text {
-  font-family: var(--font-family);
+  font-family: var(--font-family), monospace;
   font-size: var(--font-size);
   font-weight: 400;
   line-height: 23.4px;
@@ -214,6 +214,10 @@
 .section-how__container {
   display: grid;
   gap: 20px;
+}
+
+.section-header__subtitle {
+  font-weight: 400;
 }
 
 /* IMAGES */
@@ -336,6 +340,10 @@
 
   .footer {
     margin-top: 60px;
+  }
+
+  .footer__title {
+    font-size: var(--font-size-standart);
   }
 }
 
